@@ -5,7 +5,7 @@ if(message){
     document.querySelector('#message-form').classList.add('hide'); 
     document.querySelector('#message-show').classList.remove('hide');
 
-    document.querySelector('h4').innerHTML = message;   
+    document.querySelector('h5').innerHTML = message;   
 }
 
 
